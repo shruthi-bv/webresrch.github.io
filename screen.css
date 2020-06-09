@@ -38,6 +38,7 @@ h2 {
 }
 p {
   padding-bottom: 13px;
+  max-width: 660px;
 }
 ul {
   list-style-type: square;
