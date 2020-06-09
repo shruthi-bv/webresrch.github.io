@@ -7,3 +7,49 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+html {
+  background: #222;
+  color: #EEE;
+  font-family: trade-gothic-next, sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  padding: 39px 13px;
+}
+
+h1,h2 {
+  font-family: adelle, serif;
+}
+h1 {
+  font-size: 33px;
+  line-height: 39px;
+}
+h1 b {
+  font-weight: bold;
+}
+h1 small {
+  display: block;
+  font-size: 22px;
+  line-height: 26px;
+}
+h2 {
+  color: #999;
+  padding-bottom: 6.5px;
+}
+p {
+  padding-bottom: 13px;
+}
+ul {
+  list-style-type: square;
+  margin-left: 22px;
+}
+
+a {
+  text-decoration: none;
+  color: #3AA;
+}
+
+#about,
+#links {
+  padding-top: 26px;
+}
