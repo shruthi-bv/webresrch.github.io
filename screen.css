@@ -17,7 +17,7 @@ html {
   padding: 39px 13px;
 }
 
-h1,h2 {
+h1,h2,h3 {
   font-family: adelle, serif;
 }
 h1 {
@@ -34,11 +34,15 @@ h1 small {
 }
 h2 {
   color: #999;
-  padding-bottom: 6.5px;
+  padding-bottom: 13px;
+}
+h3 {
+  border-bottom: 1px solid #999;
+  padding-bottom: 5.5px;
+  margin-bottom: 6.5px;
 }
 p {
   padding-bottom: 13px;
-  max-width: 660px;
 }
 ul {
   list-style-type: square;
@@ -50,7 +54,17 @@ a {
   color: #3AA;
 }
 
+article,
+aside {
+  max-width: 660px;
+}
+
 #about,
-#links {
+#links,
+#members {
   padding-top: 26px;
+}
+
+#members section {
+  padding: 13px 0px;
 }
